@@ -211,3 +211,5 @@ C:\Users\Administrator\ApiTestProject\ApiTestProject.Test\obj\Debug\net10.0\refi
 C:\Users\Administrator\ApiTestProject\ApiTestProject.Test\obj\Debug\net10.0\ApiTestProject.Test.pdb
 C:\Users\Administrator\ApiTestProject\ApiTestProject.Test\obj\Debug\net10.0\ApiTestProject.Test.genruntimeconfig.cache
 C:\Users\Administrator\ApiTestProject\ApiTestProject.Test\obj\Debug\net10.0\ref\ApiTestProject.Test.dll
+C:\Users\Administrator\ApiTestProject\ApiTestProject.Test\obj\Debug\net10.0\ApiTestProject.Test.sourcelink.json
+C:\Users\Administrator\ApiTestProject\ApiTestProject.Test\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
