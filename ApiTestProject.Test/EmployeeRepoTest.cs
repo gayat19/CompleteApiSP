@@ -33,7 +33,6 @@ public class EmployeeRepoTest
 
         //Action
         var result = await employeeRepsitory.Add(employee);
-        Console.WriteLine(result.Name);
         //Assert
         Assert.That(result.Id, Is.EqualTo(eid));
     }
