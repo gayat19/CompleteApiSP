@@ -40,6 +40,8 @@ builder.Services.AddSwaggerGen(opt =>
     });
 });
 
+builder.Logging.AddLog4Net();
+
 #region Contexts
 builder.Services.AddDbContext<HrContext>(opts=>
 {

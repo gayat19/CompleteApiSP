@@ -1,0 +1,37 @@
+2025-08-21 15:01:54,144 [2] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5225
+2025-08-21 15:01:54,168 [2] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-08-21 15:01:54,168 [2] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-08-21 15:01:54,168 [2] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\ApiTestProject\employeeapp.Api
+2025-08-21 15:02:09,553 [.NET TP Worker] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2025-08-21 15:02:11,594 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (73ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-21 15:02:11,842 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([DepartmentId], [Name], [Phone])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-21 15:02:11,900 [.NET TP Worker] INFO EmployeeService - Employee added - 9
+2025-08-21 15:02:11,905 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2025-08-21 15:03:31,218 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-21 15:03:31,225 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([DepartmentId], [Name], [Phone])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-21 15:03:31,227 [.NET TP Worker] INFO EmployeeService - Employee added - 10
+2025-08-21 15:03:31,247 [.NET TP Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);

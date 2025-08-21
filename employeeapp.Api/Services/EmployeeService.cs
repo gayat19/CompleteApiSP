@@ -3,6 +3,7 @@ using System.Security.Cryptography;
 using System.Text;
 using AutoMapper;
 using employeeapp.api.Interfaces;
+using Microsoft.Extensions.Logging;
 
 public class EmployeeService : IEmployeeService
 {
@@ -10,17 +11,20 @@ public class EmployeeService : IEmployeeService
     private readonly IRepository<int, Department> _departmnetRepository;
     private readonly IRepository<int, User> _userRepository;
     private readonly IMapper _mapper;
+    private readonly ILogger<EmployeeService> _logger;
 
     public EmployeeService(IRepository<int, Employee> employeeRepository,
                             IRepository<int, Department> departmnetRepository,
-                            IRepository<int,User> userRepository,
-                            IMapper mapper
+                            IRepository<int, User> userRepository,
+                            IMapper mapper,
+                            ILogger<EmployeeService> logger
     )
     {
         _employeeRepository = employeeRepository;
         _departmnetRepository = departmnetRepository;
         _userRepository = userRepository;
         _mapper = mapper;
+        _logger = logger;
 
     }
     public async Task<AddEmployeeResponseDto> AddNewEmployee(AddEmployeeRequestDto employee)
@@ -37,6 +41,7 @@ public class EmployeeService : IEmployeeService
         var dbUser = _userRepository.Add(user);
         var result = _mapper.Map<AddEmployeeResponseDto>(dbEmployee);
         result.DepartmnetName = departmnet.Name;
+        _logger.LogInformation("Employee added - " + dbEmployee.Id);
         return result;
     }
 
