@@ -1,10 +1,11 @@
 using employeeapp.api.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api/[controller]")]
-
+[EnableCors]
 public class EmployeeController : ControllerBase
 {
     private readonly IEmployeeService _employeeService;

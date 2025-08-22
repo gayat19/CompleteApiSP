@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Call with Token</title>
+</head>
+<body>
+  <h1>API Call Example</h1>
+  <button onclick="callApi()">Call API</button>
+
+  <script>
+    async function callApi() {
+      const url = "http://localhost:5225/api/Employee"; // replace with your API endpoint
+      const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI1Iiwicm9sZSI6IkhSIiwibmJmIjoxNzU1ODM5NDU3LCJleHAiOjE3NTU5MjU4NTcsImlhdCI6MTc1NTgzOTQ1N30.VAeP17c6I_JPq7y0AfSxiW8aZ8DpujHcyjLqVKBueR0"; // replace with your actual token
+
+      try {
+        const response = await fetch(url, {
+          method: "GET",
+          headers: {
+            "Authorization": `Bearer ${token}`,
+            "Content-Type": "application/json"
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log("API Response:", data);
+      } catch (error) {
+        console.error("Error calling API:", error);
+      }
+    }
+  </script>
+</body>
+</html>

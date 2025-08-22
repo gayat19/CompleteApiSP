@@ -41,6 +41,14 @@ builder.Services.AddSwaggerGen(opt =>
 });
 
 builder.Logging.AddLog4Net();
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+        .AllowAnyHeader().AllowAnyMethod();
+    });
+});
 
 #region Contexts
 builder.Services.AddDbContext<HrContext>(opts=>
@@ -115,7 +123,7 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
-
+app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
 
