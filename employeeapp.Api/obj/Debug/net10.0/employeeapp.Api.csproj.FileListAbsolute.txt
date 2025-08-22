@@ -319,3 +319,5 @@ C:\Users\Administrator\ApiTestProject\employeeapp.Api\obj\Debug\net10.0\refint\e
 C:\Users\Administrator\ApiTestProject\employeeapp.Api\obj\Debug\net10.0\employeeapp.Api.pdb
 C:\Users\Administrator\ApiTestProject\employeeapp.Api\obj\Debug\net10.0\employeeapp.Api.genruntimeconfig.cache
 C:\Users\Administrator\ApiTestProject\employeeapp.Api\obj\Debug\net10.0\ref\employeeapp.Api.dll
+C:\Users\Administrator\ApiTestProject\employeeapp.Api\obj\Debug\net10.0\employeeapp.Api.RazorAssemblyInfo.cache
+C:\Users\Administrator\ApiTestProject\employeeapp.Api\obj\Debug\net10.0\employeeapp.Api.RazorAssemblyInfo.cs

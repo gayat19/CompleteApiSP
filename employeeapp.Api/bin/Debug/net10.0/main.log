@@ -330,3 +330,257 @@ SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
 FROM [Departmnets] AS [d]
 WHERE [d].[DepartmentNumber] = @__key_0
 2025-08-22 11:53:03,724 [22] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-08-22 11:53:10,927 [2] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5225
+2025-08-22 11:53:10,942 [2] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-08-22 11:53:10,942 [2] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-08-22 11:53:10,943 [2] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\ApiTestProject\employeeapp.Api
+2025-08-22 12:49:38,812 [69] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-08-22 12:49:54,011 [2] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5225
+2025-08-22 12:49:54,030 [2] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-08-22 12:49:54,030 [2] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-08-22 12:49:54,030 [2] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\ApiTestProject\employeeapp.Api
+2025-08-22 12:50:21,226 [.NET TP Worker] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2025-08-22 12:55:09,878 [3] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-08-22 12:55:17,697 [2] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5225
+2025-08-22 12:55:17,712 [2] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-08-22 12:55:17,713 [2] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-08-22 12:55:17,713 [2] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\ApiTestProject\employeeapp.Api
+2025-08-22 12:55:23,467 [.NET TP Worker] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2025-08-22 12:56:01,327 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET http://localhost:5225/api/employee
+2025-08-22 12:56:01,328 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET http://localhost:5225/api/employee
+2025-08-22 12:56:02,779 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Phone]
+FROM [Employees] AS [e]
+2025-08-22 12:56:02,940 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (19ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,973 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,974 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,976 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,977 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,978 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,979 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,980 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,982 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,983 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,984 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:02,985 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:03,018 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 1677.7326ms - 200
+2025-08-22 12:56:03,019 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 1698.5168ms - 200
+2025-08-22 12:56:03,042 [.NET TP Worker] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index' was not found. Searched locations: /Views/Employees/Index.cshtml, /Views/Shared/Index.cshtml
+2025-08-22 12:56:03,056 [.NET TP Worker] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Employees/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-22 12:56:42,239 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET http://localhost:5225/api/employee
+2025-08-22 12:56:42,240 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET http://localhost:5225/api/employee
+2025-08-22 12:56:42,301 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Phone]
+FROM [Employees] AS [e]
+2025-08-22 12:56:42,307 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,309 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,310 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,311 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,313 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,315 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,316 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,317 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,318 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,320 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,320 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,321 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:42,324 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 84.0727ms - 200
+2025-08-22 12:56:42,324 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 84.7031ms - 200
+2025-08-22 12:56:42,327 [.NET TP Worker] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index' was not found. Searched locations: /Views/Employees/Index.cshtml, /Views/Shared/Index.cshtml
+2025-08-22 12:56:42,330 [.NET TP Worker] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Employees/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-22 12:56:48,685 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.LogicalHandler - Start processing HTTP request GET http://localhost:5225/api/employee
+2025-08-22 12:56:48,685 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.ClientHandler - Sending HTTP request GET http://localhost:5225/api/employee
+2025-08-22 12:56:48,779 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Phone]
+FROM [Employees] AS [e]
+2025-08-22 12:56:48,781 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,783 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,784 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,785 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,786 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,787 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,788 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,789 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,789 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,790 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,791 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,792 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 12:56:48,793 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.ClientHandler - Received HTTP response headers after 108.4936ms - 200
+2025-08-22 12:56:48,793 [.NET TP Worker] INFO System.Net.Http.HttpClient.Default.LogicalHandler - End processing HTTP request after 109.0055ms - 200
+2025-08-22 12:56:48,794 [.NET TP Worker] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index' was not found. Searched locations: /Views/Employees/Index.cshtml, /Views/Shared/Index.cshtml
+2025-08-22 12:56:48,796 [.NET TP Worker] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Employees/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-22 12:56:54,622 [3] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
