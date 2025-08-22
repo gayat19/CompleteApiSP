@@ -2,15 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>API Call with Token</title>
+  <title>Employee Data</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f5f5f5;
+    }
+    h1 {
+      text-align: center;
+    }
+    #employeeContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 220px;
+      text-align: center;
+    }
+    .card h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+    .card p {
+      margin: 5px 0 0;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-  <h1>API Call Example</h1>
-  <button onclick="callApi()">Call API</button>
+  <h1>Employee Directory</h1>
+  <button onclick="callApi()">Load Employees</button>
+
+  <div id="employeeContainer"></div>
 
   <script>
     async function callApi() {
-      const url = "http://localhost:5225/api/Employee"; // replace with your API endpoint
+       const url = "http://localhost:5225/api/Employee"; // replace with your API endpoint
       const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI1Iiwicm9sZSI6IkhSIiwibmJmIjoxNzU1ODM5NDU3LCJleHAiOjE3NTU5MjU4NTcsImlhdCI6MTc1NTgzOTQ1N30.VAeP17c6I_JPq7y0AfSxiW8aZ8DpujHcyjLqVKBueR0"; // replace with your actual token
 
       try {
@@ -26,8 +62,24 @@
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const data = await response.json();
-        console.log("API Response:", data);
+        const employees = await response.json();
+        console.log("API Response:", employees);
+
+        // Clear container
+        const container = document.getElementById("employeeContainer");
+        container.innerHTML = "";
+
+        // Assuming employees is an array of objects like { name: "", phone: "" }
+        employees.forEach(emp => {
+          const card = document.createElement("div");
+          card.className = "card";
+          card.innerHTML = `
+            <h3>${emp.name}</h3>
+            <p>${emp.phone}</p>
+          `;
+          container.appendChild(card);
+        });
+
       } catch (error) {
         console.error("Error calling API:", error);
       }

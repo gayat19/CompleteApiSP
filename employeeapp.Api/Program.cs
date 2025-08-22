@@ -40,7 +40,9 @@ builder.Services.AddSwaggerGen(opt =>
     });
 });
 
+#region  Misc
 builder.Logging.AddLog4Net();
+builder.Services.AddScoped<CustomExceptionFilter>();
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -49,6 +51,9 @@ builder.Services.AddCors(options =>
         .AllowAnyHeader().AllowAnyMethod();
     });
 });
+#endregion
+
+
 
 #region Contexts
 builder.Services.AddDbContext<HrContext>(opts=>

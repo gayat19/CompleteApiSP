@@ -30,18 +30,22 @@ public class EmployeeController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Roles ="HR")]
+
+    [ProducesResponseType(typeof(AddEmployeeResponseDto),StatusCodes.Status201Created)]
+    [ProducesErrorResponseType(typeof(ErrorObject))]
+    [Authorize(Roles = "HR")]
+    [CustomExceptionFilter]
     public async Task<ActionResult<AddEmployeeResponseDto>> Anymethod([FromBody] AddEmployeeRequestDto employee)
     {
-        try
-        {
-            var result = await _employeeService.AddNewEmployee(employee);
-            return Created("", result);
-        }
-        catch (System.Exception e)
-        {
-            return BadRequest(e.Message);
-        }
+        // try
+        // {
+        var result = await _employeeService.AddNewEmployee(employee);
+        return Created("", result);
+        // }
+        // catch (System.Exception e)
+        // {
+        //     return BadRequest(e.Message);
+        // }
     }
 
 }

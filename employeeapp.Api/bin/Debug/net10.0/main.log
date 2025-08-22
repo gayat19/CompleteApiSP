@@ -59,3 +59,274 @@ SET NOCOUNT ON;
 INSERT INTO [Users] ([UserId], [Key], [Password], [Role])
 VALUES (@p0, @p1, @p2, @p3);
 2025-08-22 10:47:09,222 [10] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-08-22 10:47:21,291 [2] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5225
+2025-08-22 10:47:21,310 [2] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-08-22 10:47:21,310 [2] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-08-22 10:47:21,310 [2] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\ApiTestProject\employeeapp.Api
+2025-08-22 10:47:31,842 [.NET TP Worker] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2025-08-22 10:47:33,083 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Phone]
+FROM [Employees] AS [e]
+2025-08-22 10:47:33,223 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,253 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,255 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,256 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,257 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,259 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,260 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,261 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,262 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,264 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:47:33,265 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,391 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Phone]
+FROM [Employees] AS [e]
+2025-08-22 10:52:54,394 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,395 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,396 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,398 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,399 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,400 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,401 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,401 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,403 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,404 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:54,406 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,553 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Phone]
+FROM [Employees] AS [e]
+2025-08-22 10:52:58,555 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,557 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,558 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,559 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,560 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,561 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,563 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,564 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,566 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,567 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:52:58,568 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,449 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Phone]
+FROM [Employees] AS [e]
+2025-08-22 10:53:28,452 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,454 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,455 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,455 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,457 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,458 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,459 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,460 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,461 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,461 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 10:53:28,462 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:45:24,308 [20] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-08-22 11:45:34,841 [2] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5225
+2025-08-22 11:45:34,856 [2] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-08-22 11:45:34,856 [2] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-08-22 11:45:34,856 [2] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Administrator\ApiTestProject\employeeapp.Api
+2025-08-22 11:45:46,278 [.NET TP Worker] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2025-08-22 11:45:47,906 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (59ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:45:48,116 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([DepartmentId], [Name], [Phone])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-22 11:45:48,161 [.NET TP Worker] INFO EmployeeService - Employee added - 12
+2025-08-22 11:45:48,164 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2025-08-22 11:46:00,639 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,703 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Phone]
+FROM [Employees] AS [e]
+2025-08-22 11:50:34,708 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,712 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,713 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,714 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,715 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,716 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,717 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,719 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,720 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,724 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,724 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:50:34,725 [.NET TP Worker] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [d].[DepartmentNumber], [d].[Name]
+FROM [Departmnets] AS [d]
+WHERE [d].[DepartmentNumber] = @__key_0
+2025-08-22 11:53:03,724 [22] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
